@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>نِسار - سامانه مدیریت آزمون دانشگاه پیام نور</title>
+    <link rel="icon" href="assets/img/samples/image.png" />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+      html { scroll-behavior: smooth; }
+      .feature-card p { text-align: justify; }
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container nav-wrapper">
+        <a href="#" class="logo"
+          ><img
+            src="assets/img/samples/image.png"
+            alt="نِسار"
+            class="logo-img"
+          />نِسار</a
+        >
+        <nav>
+          <a
+            href="#features"
+            class="btn btn-outline"
+            style="border:none; color:var(--text-main)"
+            >امکانات</a
+          >
+          <a
+            href="#reports"
+            class="btn btn-outline"
+            style="border:none; color:var(--text-main)"
+            >گزارشات</a
+          >
+          <a
+            href="#shots"
+            class="btn btn-outline"
+            style="border:none; color:var(--text-main)"
+            title="مشاهده تصاویر"
+            >تصاویر</a
+          >
+          <a
+            href="#pricing"
+            class="btn btn-outline"
+            style="border:none; color:var(--text-main)"
+            >قیمت‌گذاری</a
+          >
+          <a
+            href="#demo"
+            class="btn btn-outline"
+            style="border:none; color:var(--text-main)"
+            >دمو</a
+          >
+          <!--  
+
+          <a href="https://dev.nesaar.ir" class="btn btn-primary"
+            >ورود به سامانه</a
+          >
+          -->
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="container">
+        <h1>مدیریت هوشمند آزمون‌های دانشگاهی</h1>
+        <p>
+          سامانه جامع نِسار با رابط کاربری مدرن و تجربه کاربری بی‌نظیر، مدیریت
+          جلسات آزمون، اطلاع رسانی به دانشجویان و عوامل اجرائی آزمون، تولید
+          گزارشات، چینش مراقبین و گزارش‌گیری را برای ستادهای برگزاری آزمون در
+          مراکز دانشگاه پیام نور ساده می‌کند.
+        </p>
+
+        <div class="hero-visual">
+          <div class="mockup-card">
+            <div
+              style="display:flex; justify-content:space-between; margin-bottom:20px; border-bottom:1px solid rgba(255,255,255,0.1); padding-bottom:10px;"
+            >
+              <span><i class="fas fa-user-graduate"></i> خوش آمدید</span>
+              <span>۱۴۰۴/۰۹/۱۲</span>
+            </div>
+            <div
+              style="display:grid; grid-template-columns: 1fr 1fr; gap:20px;"
+            >
+              <div
+                style="background:rgba(255,255,255,0.05); padding:15px; border-radius:10px;"
+              >
+                <h4 style="color:var(--accent-primary)">آزمون بعدی</h4>
+                <div style="font-size:2rem; font-weight:bold;">
+                  ریاضی عمومی ۱
+                </div>
+                <div style="color:var(--text-muted)">
+                  ساعت ۱۰:۳۰ | ساختمان ۱
+                </div>
+              </div>
+              <div
+                style="background:rgba(255,255,255,0.05); padding:15px; border-radius:10px;"
+              >
+                <h4 style="color:var(--accent-secondary)">شماره صندلی</h4>
+                <div style="font-size:2.5rem; font-weight:bold; color:#fff;">
+                  ۱۲۵
+                </div>
+                <div style="color:var(--text-muted)">ردیف ۵</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="features" class="features">
+      <div class="container">
+        <h2 class="section-title">امکانات برجسته</h2>
+        <div class="features-grid">
+          <!-- 1. Push Notifications -->
+          <div class="feature-card">
+            <i class="fas fa-bell feature-icon" style="color: #ff6b6b;"></i>
+            <h3>پوش نوتیفیکیشن</h3>
+            <p>
+              ارسال خودکار اعلان به مراقبین و همکاران درباره جلسات، تغییرات
+              برنامه و یادآوری‌ها؛ بدون نیاز به تماس تلفنی یا پیامک.
+            </p>
+          </div>
+
+          <!-- 2. Proctor Assignment Methods -->
+          <div class="feature-card">
+            <i
+              class="fas fa-users-cog feature-icon"
+              style="color: #4ecdc4;"
+            ></i>
+            <h3>چینش هوشمند مراقبین</h3>
+            <p>
+              تخصیص مراقبین به روش‌های مختلف: پراکنده، روزانه یا دستی. توزیع
+              عادلانه بار کاری و رعایت محدودیت‌های هر مراقب.
+            </p>
+          </div>
+
+          <!-- 3. Cost Reduction -->
+          <div class="feature-card">
+            <i
+              class="fas fa-piggy-bank feature-icon"
+              style="color: #45b7d1;"
+            ></i>
+            <h3>کاهش هزینه‌های اجرایی</h3>
+            <p>
+              حذف قرنطینه سوالات، کاهش نیروی انسانی مورد نیاز و صرفه‌جویی در
+              زمان با اتوماسیون فرآیندها و گزارش‌گیری خودکار.
+            </p>
+          </div>
+
+          <!-- 4. Management Dashboard -->
+          <div class="feature-card">
+            <i
+              class="fas fa-chart-line feature-icon"
+              style="color: #96ceb4;"
+            ></i>
+            <h3>دید مدیریتی عمیق</h3>
+            <p>
+              داشبورد جامع با آمار لحظه‌ای: تعداد دانشجویان، دروس، مراقبین فعال،
+              وضعیت جلسات و پیش‌بینی منابع مورد نیاز.
+            </p>
+          </div>
+
+          <!-- 5. Diverse Charts -->
+          <div class="feature-card">
+            <i
+              class="fas fa-chart-pie feature-icon"
+              style="color: #ffeaa7;"
+            ></i>
+            <h3>نمودارهای متنوع</h3>
+            <p>
+              نمایش گرافیکی آمار با نمودارهای دایره‌ای، میله‌ای و خطی. تحلیل
+              روند آزمون‌ها در بازه‌های زمانی مختلف.
+            </p>
+          </div>
+
+          <!-- 6. Question Packet by Location -->
+          <div class="feature-card">
+            <i class="fas fa-box-open feature-icon" style="color: #dfe6e9;"></i>
+            <h3>پاکت‌بندی سوالات</h3>
+            <p>
+              تهیه خودکار لیست پاکت سوالات به تفکیک ساختمان، کلاس و سالن.
+              آماده‌سازی سریع اتاق تکثیر بدون خطای انسانی.
+            </p>
+          </div>
+
+          <!-- 7. PWA -->
+          <div class="feature-card">
+            <i
+              class="fas fa-mobile-alt feature-icon"
+              style="color: #3ca6ff;"
+            ></i>
+            <h3>طراحی واکنش‌گرا (PWA)</h3>
+            <p>
+              قابل نصب روی موبایل و دسکتاپ، با رابط کاربری گلس‌مورفیسم و تجربه
+              کاربری روان مشابه اپلیکیشن‌های بومی.
+            </p>
+          </div>
+
+          <!-- 8. Advanced Reports -->
+          <div class="feature-card">
+            <i class="fas fa-file-pdf feature-icon" style="color: #e74c3c;"></i>
+            <h3>گزارش‌گیری پیشرفته</h3>
+            <p>
+              تولید انواع گزارشات PDF: صورتجلسه، لیست منشی، شماره صندلی،
+              برچسب‌های A5، فرم تحویل اوراق و لیست حضور و غیاب.
+            </p>
+          </div>
+
+          <!-- 9. Proctor Panel -->
+          <div class="feature-card">
+            <i
+              class="fas fa-user-shield feature-icon"
+              style="color: #ffca28;"
+            ></i>
+            <h3>پنل مراقبین</h3>
+            <p>
+              دسترسی اختصاصی برای مراقبین جهت مشاهده برنامه جلسات، همکاران
+              هم‌جلسه، ثبت تخلفات و مدیریت حضور و غیاب.
+            </p>
+          </div>
+
+          <!-- 10. Offline Mode -->
+          <div class="feature-card">
+            <i
+              class="fas fa-wifi-slash feature-icon"
+              style="color: #636e72;"
+            ></i>
+            <h3>عملکرد آفلاین</h3>
+            <p>
+              استفاده از Service Worker برای کش کردن اطلاعات و دسترسی به برنامه
+              حتی در زمان قطعی اینترنت.
+            </p>
+          </div>
+
+          <!-- 11. SMS Integration -->
+          <div class="feature-card">
+            <i class="fas fa-sms feature-icon" style="color: #00b894;"></i>
+            <h3>ارسال پیامک</h3>
+            <p>
+              اطلاع‌رسانی به مراقبین و همکاران از طریق پیامک انبوه. ارسال برنامه
+              جلسات و یادآوری‌های مهم.
+            </p>
+          </div>
+
+          <!-- 12. Student Lookup -->
+          <div class="feature-card">
+            <i class="fas fa-search feature-icon" style="color: #a29bfe;"></i>
+            <h3>جستجوی دانشجو</h3>
+            <p>
+              جستجوی سریع دانشجو با شماره دانشجویی یا نام. نمایش شماره صندلی،
+              ساختمان و کلاس در لحظه.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="reports" class="reports-showcase">
+      <div class="container">
+        <h2 class="section-title">نمونه‌ای از گزارشات</h2>
+        <p style="text-align:center; color:var(--text-muted)">
+          تولید خودکار گزارشات با فرمت استاندارد و زیبا
+        </p>
+
+        <div
+          class="report-preview"
+          style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; justify-content: center;"
+        >
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_1.png"
+              alt="صورتجلسه آزمون"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_2.png"
+              alt="لیست منشی جلسه"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_3.png"
+              alt="ملزومات اتاق تکثیر"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_4.png"
+              alt="برنامه همکاری"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_5.png"
+              alt="کروکی ساختمان"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+          <div
+            class="report-item"
+            style="width: 100%; height: auto; overflow: hidden; border-radius: 8px; box-shadow: 0 4px 15px rgba(0,0,0,0.1);"
+          >
+            <img
+              src="assets/img/samples/sample_6.png"
+              alt="فرم تحویل اوراق"
+              style="width: 100%; height: auto; display: block;"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="shots" class="shots-gallery">
+      <div class="container">
+        <h2 class="section-title">تصاویری از محیط برنامه</h2>
+        <p style="text-align:center; color:var(--text-muted)">
+          نگاهی بصری به بخش‌های مختلف اپلیکیشن
+        </p>
+
+        <div id="shots-grid" class="shots-grid" aria-live="polite">
+          <!-- تصاویر توسط js/gallery.js بارگذاری می‌شوند -->
+        </div>
+      </div>
+
+      <div id="shot-modal" class="shot-modal" role="dialog" aria-hidden="true">
+        <div class="modal-body">
+          <img id="shot-modal-img" src="" alt="تصویر محیط برنامه" />
+        </div>
+      </div>
+    </section>
+
+    <section id="pricing" class="features">
+      <div class="container">
+        <h2 class="section-title">
+          سیستم قیمت‌گذاری اپلیکیشن نِسار در دو مدل‌ ابری و خود میزبان
+        </h2>
+        <p
+          style="color: var(--accent-secondary); font-size: 1.5rem; text-align: center;"
+        >
+          این دو مدل، پاسخگوی نیاز مراکز پیام نور با اولویت‌های متفاوت (کنترل
+          زیرساخت یا سهولت عملیاتی) خواهند بود.
+        </p>
+        <br />
+        <h3>۱. مدل اشتراکی ابری (SaaS) – ویژه دوره‌های آزمون</h3>
+        <p>
+          این مدل برای مراکزی طراحی شده است که ترجیح می‌دهند بدون دغدغه‌ی مدیریت
+          زیرساخت، صرفاً در ایام آزمون‌های ترمی از سرویس استفاده کنند. لازم به
+          ذکر است که سرورها پس از اتمام آزمون‌های هر ترم، تا شروع دوره بعدی
+          خاموش خواهند شد. کلیه هزینه‌های سرور، نگهداری، و به‌روزرسانی در این
+          مدل بر عهده ما خواهد بود.
+        </p>
+
+        <h4>پلن‌ها و هزینه‌های مدل اشتراکی ابری (SaaS):</h4>
+        <ul class="pricing-list">
+          <li>
+            <strong>پلن ترمی:</strong> (ایام برگزاری آزمون‌های یک ترم) هزینه این
+            پلن برای فعال‌سازی سرویس در طول ایام برگزاری آزمون‌های یک ترم مشخص
+            (اول، دوم یا تابستان) معادل ۹۹۰,۰۰۰ تومان است. این پلن بهترین گزینه
+            برای هماهنگی با نیازهای فصلی مراکز آموزشی است.
+          </li>
+          <li>
+            <strong>پلن سال تحصیلی:</strong> (تمام دوره‌های آزمون در یک سال
+            تحصیلی) این پلن دسترسی به تمام ایام برگزاری آزمون‌ها در طول یک سال
+            تحصیلی کامل (سه ترم رسمی) را شامل می‌شود و هزینه آن ۲,۵۰۰,۰۰۰ تومان
+            است. این گزینه مقرون‌به‌صرفه‌ترین انتخاب با تخفیف ویژه برای تعهد
+            بلند مدت است.
+          </li>
+        </ul>
+
+        <h4>مزایای کلیدی پلن SaaS:</h4>
+        <ul class="pricing-list">
+          <li>
+            <strong>ساب‌دامنه اختصاصی:</strong> هر مرکز یک آدرس ساب‌دامنه
+            اختصاصی مطابق با کد ساد مرکز خود دریافت خواهد کرد.
+          </li>
+          <li>
+            <strong>نصب صفر:</strong> دسترسی فوری از طریق مرورگر، بدون نیاز به
+            نصب یا پیکربندی.
+          </li>
+          <li>
+            <strong>پشتیبانی تضمینی:</strong> رفع اشکال و پشتیبانی فنی در طول
+            دوره فعال‌سازی سرویس.
+          </li>
+          <li>
+            <strong>به‌روزرسانی خودکار:</strong> تمامی امکانات و بهبودها به صورت
+            خودکار و رایگان اعمال می‌شوند.
+          </li>
+        </ul>
+
+        <h3>۲. مدل مجوز خود میزبان (On-Premise)</h3>
+        <p>
+          این مدل برای مراکزی مناسب است که اولویت اصلی آن‌ها کنترل حداکثری بر
+          داده‌ها و زیرساخت سخت‌افزاری خودشان است. نرم‌افزار به صورت Dockerized
+          و با کد Obfuscation برای استقرار روی سرورهای شخصی شما ارائه می‌شود.
+        </p>
+
+        <h4>ساختار هزینه‌های پلن خود میزبان:</h4>
+        <ul class="pricing-list">
+          <li>
+            <strong>مجوز دائمی (هزینه یک‌باره):</strong> برای مالکیت مجوز
+            استفاده دائمی از نرم‌افزار، هزینه یک‌باره‌ای معادل ۳,۰۰۰,۰۰۰ تومان
+            دریافت می‌شود.
+          </li>
+          <li>
+            <strong>پشتیبانی و نگهداری (هزینه سالانه):</strong> جهت تضمین کیفیت
+            و پایداری سرویس، دسترسی به به‌روزرسانی‌های فنی، رفع باگ‌ها و
+            پشتیبانی فنی در طول سال، هزینه تکرارشونده سالیانه ۵۰۰,۰۰۰ تومان در
+            نظر گرفته شده است.
+          </li>
+          <li>
+            <strong>نصب و راه‌اندازی (اختیاری):</strong> راهنمای کامل نصب در
+            اختیار شما قرار خواهد گرفت. اما در صورتی که مرکز دانش فنی لازم برای
+            نصب را نداشته باشد یا ترجیح دهد فرآیند نصب توسط ما انجام شود، خدمات
+            نصب و راه‌اندازی ریموت با هزینه یک‌باره ۵۰۰,۰۰۰ تومان ارائه می‌شود.
+          </li>
+        </ul>
+
+        <h4>مزایای کلیدی پلن خود میزبان:</h4>
+        <ul class="pricing-list">
+          <li>
+            <strong>کنترل کامل بر داده‌ها:</strong> مالکیت و مدیریت کامل
+            داده‌های خود را در دست داشته باشید.
+          </li>
+          <li>
+            <strong>امنیت داده‌های داخلی:</strong> بالاترین سطح امنیت برای
+            داده‌های حساس مرکز شما.
+          </li>
+          <li>
+            <strong>استقرار آسان:</strong> ارائه با تکنولوژی Docker برای نصب و
+            راه‌اندازی سریع و بدون پیچیدگی.
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="demo" class="hero">
+      <div class="container">
+        <div class="feature-card" style="width: 500px; margin: 20px auto;">
+          <i class="fas fa-key feature-icon" style="color: #ff6b6b;"></i>
+          <p style="font-family: monospace; direction: ltr;">
+            <i class="fas fa-user"></i> admin0000<br />
+            <i class="fas fa-lock"></i> 2Y08075KRQY08K1V4T0M8D74001MBK10
+          </p>
+          <a
+            href="https://demo.nesaar.ir"
+            class="btn btn-primary"
+            target="_blank"
+            >مشاهده دمو</a
+          >
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div class="container">
+        <p style="color:var(--text-muted); font-size:0.9rem;">
+          &copy; ۱۴۰۴ سامانه نِسار. تمامی حقوق محفوظ است.
+        </p>
+      </div>
+    </footer>
+    <script src="js/gallery.js" defer></script>
+  </body>
+</html>
